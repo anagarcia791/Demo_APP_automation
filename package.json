@@ -1,0 +1,28 @@
+{
+  "name": "webdriverio-mobile-tests",
+  "version": "1.1.1",
+  "description": "mobile testing challenge",
+  "scripts": {
+    "wdio": "npx wdio run config/wdio.conf.js"
+  },
+  "keywords": [
+    "webdriverIO",
+    "mocha",
+    "appium",
+    "android",
+    "javascript"
+  ],
+  "author": "anagarcia791",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/appium-service": "^7.26.0",
+    "@wdio/cli": "^7.27.0",
+    "@wdio/local-runner": "^7.27.0",
+    "@wdio/mocha-framework": "^7.26.0",
+    "@wdio/spec-reporter": "^7.26.0",
+    "appium": "^1.22.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
